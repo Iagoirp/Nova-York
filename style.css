@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+*{
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    height: 70vh;
+    background: no-repeat center/cover url(imagem/nova-iorque.jpg); 
+    display: flex;
+
+}
+
+nav {
+    background-color: #00a7efda;
+    height: 75px;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  
+  ul{
+    float: right;
+    margin-right: 10px;
+  
+  }
+  
+  li{
+    display: inline-block;
+    line-height: 75px;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.7s;
+    text-decoration: none;
+    list-style: none;
+  }
+  .hover:hover{
+    background-color: #0b85b9;
+    
+  }
+  
+  .welcome{
+    color: white;
+    line-height: 75px;
+    padding: 0px 50px;
+    font-size: 20px;}
+
+.textosserviços{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    background-color: rgb(233, 233, 233);
+}
+.textosserviços1{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    
+}
+.turismo{
+    background-color: white;
+    font-size: 45px;
+    text-align: center;
+    
+}
+.textoturismo{
+    background-color: rgb(233, 233, 233);
+
+}
+
+.cidadetexto{
+    font-size: 35px;
+    
+}
+.turismoimg{
+    margin-bottom: 120px;
+  width: 420px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+    
+}
+  .Turismoimg1{
+    margin-bottom: 120px;
+    width: 420px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    
+  }
+   .Turismoimg2{
+    margin-bottom: 120px;
+    width: 420px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+
+   }
+    
+  .itemflex50{
+    margin-bottom: 120px;
+    margin: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+   .cidadetexto{
+    background-color: rgb(233, 233, 233);
+    font-size: 40px;
+
+   }
+   .textotu{
+    font-size: 25px;
+   }
+   .Comidas{
+    background-color: rgb(233, 233, 233);
+    font-size: 40px;
+    margin-top: 1%;
+   }
+   .textoc{
+    font-size: 25px;
+    margin-top: 1%;
+   }
+   .comidaimg{
+    margin-bottom: 120px;
+    width: 420px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+   }
+    .comidaimg1{
+      margin-bottom: 120px;
+    width: 420px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+
+    }
+      .comidaimg2{
+        margin-bottom: 120px;
+    width: 420px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+   }
+   .textoco{
+    font-size: 25px;
+    margin-top: 1%;
+   }
+    .final{
+      background-color: rgb(233, 233, 233);
+      font-size: 40px;
+      margin-top: 1%;
+   }
+    
+   .viagem{
+    font-size: 25px;
+    margin-top: 1%;
+    margin-right: 1%;
+   }
+   .button{
+    padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(44, 42, 42);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.70s ease-out; 
+   }
+  
+  .button:hover{
+    background-color: rgba(153, 152, 152, 0.25);
+  }
+  .Contato{
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-top: 1%;
+    text-align: center;
+    color: aliceblue;
+  
+  }
+  .Contato1{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    color: aliceblue;
+  }
+  .direitos{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+  }
+  @media (max-width: 720px){
+    header{
+      background-position: center left;
+    }
+
+    .services{
+      padding: 20px;
+    }
+    .city, .contact {
+      flex-direction: column-reverse;
+    }
+    .servicescontainer {
+      flex-direction: column;
+    }
+    .servicesimg{
+     object-fit: cover;
+     max-height: 250px;
+    }
+    .contact{
+      flex-direction: column-reverse;
+    }
+    .serviceh2 {
+      text-align: center;
+    }
+    .buttondois {
+      margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 610px){
+    nav ul li a{
+      display:none;
+    }
+}
+  
+    
+    
+
